@@ -1,0 +1,154 @@
+.img{vertical-align:middle;}
+.logoheader{
+max-width:500px;
+position:relative;
+margin:auto;
+}
+ 
+.logoheader:hover .infooverlay{
+background-color: rgba(0,0,0,0.9);
+}
+.logoheader:hover .infoh1{
+display:block;
+}
+.logoheader:hover .headerinfo{
+display:block;  
+}
+
+.logoheader:hover .slideshow-container{
+background-color: rgba(0,0,0,0.9);
+}
+  
+.logoheader:hover .prev{
+display:block;
+}
+  
+.logoheader:hover .next{
+display:block;
+}
+
+.slideshow-container {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+transition: .5s ease; 
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  display:none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+  
+.infooverlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+transition: .5s ease; 
+}
+  
+.infoh1{
+  display:none;
+  color:#c99c35;
+  font-family:oswald;
+  font-size:25px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  text-align:center;
+  padding:20px 20px 15px 20px;
+  }
+
+ .playerlist{
+   width:500px;
+   margin:auto;
+  }
+  
+.headerinfo{
+  display:none;
+  color:#cc9a39;
+  text-align:justify;
+  font-size:15px;
+  margin-top:20px;
+  padding:10px 50px 15px 50px;
+  font-family:oswald;
+  }
+
+.texth1{
+  color:#020617;
+  font-family:oswald;
+  font-size:30px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  text-align:center;
+  padding:20px 20px 15px 20px;
+}
+.player{
+ position:relative;
+ width:200px;
+ height:250px;
+ float:left;
+ margin:10px 25px 10px 25px;
+ }
+  
+.player:hover .infooverlay {
+ background-color:rgba(3,18,77,0.6);  
+  }
+  
+.player:hover .textname{
+ display:block;
+  }
+.player:hover .textinfo{
+ display:block;
+  }
+  
+.textname{
+ display:none;
+ position:absolute;
+ color:#ffcb61;
+ font-family:oswald;
+ font-size:20px;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+  
+.textinfo{
+display:none;
+position:absolute;
+ color:#cc9a39;
+ font-family:oswald;
+ font-style:italic;
+ font-size:15px;
+ top:60%;
+ left:50%;
+ transform: translate(-50%, -50%);
+  }
